@@ -1,0 +1,116 @@
+h1 {
+	font-family: 'MedievalSharp', cursive;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: bolder;
+	font-size: 3rem;
+	text-decoration: underline;
+	color: rgb(53, 76, 70));
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+	font-family: 'MedievalSharp', cursive;
+	font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.cat-description {
+	align-self: center;
+	padding: 2rem;
+	position: relative;
+	background: rgb(145, 165, 186);
+	border-radius: .4em;
+    color:black;
+	font-size: 1.5rem;
+}
+
+.cat-description:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: rgb(145, 165, 186);
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.cat-image {
+	align-self: center;
+    width: 320px;
+    height: 320px;
+}
+
+.cat-button {
+	align-self: center;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	background-color: slategrey;
+	color:rgb(230, 235, 238);
+}
+
+
+.dog {
+    display: flex;
+    flex-direction: column;
+	gap: 3rem;
+}
+
+.dog-description {
+	align-self: center;
+	padding: 2rem;
+	position: relative;
+	background: #dbc9a4;
+	border-radius: .4em;
+	font-size: 1.5rem;
+}
+
+.dog-description:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #dbc9a4;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.dog-image {
+    width: 320px;
+	height: 320px;
+	align-self: center;
+}
+
+.dog-button {
+	align-self: center;
+	font-size: 1.3rem;
+	background-color: #dcc089;
+	font-weight: bolder;
+
+}
